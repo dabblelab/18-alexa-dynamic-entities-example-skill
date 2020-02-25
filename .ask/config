@@ -14,7 +14,18 @@
           }
         }
       },
-      "in_skill_products": []
+      "in_skill_products": [],
+      "resources": {
+        "lambda": [
+          {
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "handler": "index.handler",
+            "runtime": "nodejs12.x"
+          }
+        ]
+      }
     }
   }
 }
