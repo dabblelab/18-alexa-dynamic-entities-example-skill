@@ -1,0 +1,63 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "coffee words",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "SecretWordIntent",
+                    "slots": [
+                        {
+                            "name": "secretWord",
+                            "type": "secretWordType"
+                        }
+                    ],
+                    "samples": [
+                        "is the word {secretWord}",
+                        "{secretWord}",
+                        "my guess is {secretWord}",
+                        "the word is {secretWord}",
+                        "i think it's {secretWord}",
+                        "i guess {secretWord}",
+                        "i think the word is {secretWord}",
+                        "is {secretWord} the secret word",
+                        "is it {secretWord}",
+                        "is it a {secretWord}",
+                        "how about {secretWord}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "secretWordType",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "dabble"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

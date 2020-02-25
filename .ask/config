@@ -1,0 +1,23 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.a8cf4e9f-b7d2-47a5-b50e-b3935ce211df",
+      "was_cloned": false,
+      "resources": {
+        "lambda": [
+          {
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "awsRegion": "us-east-1",
+            "codeUri": "lambda/custom",
+            "functionName": "ask-custom-dynamic-entities-alexa-default",
+            "handler": "index.handler",
+            "runtime": "nodejs12.x"
+          }
+        ]
+      },
+      "in_skill_products": []
+    }
+  }
+}
