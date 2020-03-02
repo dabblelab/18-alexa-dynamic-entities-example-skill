@@ -1,4 +1,4 @@
-# ALEXA-18 - Dynamic Entities Skill Template
+# 18 - Dynamic Entities Skill Template
 
 The **Dynamic Entities Skill Template** demonstrates the use of [dynamic entities](https://developer.amazon.com/docs/custom-skills/use-dynamic-entities-for-customized-interactions.html) in a custom Alexa skill. Dynamic entities enable custom slot types to be updated at runtime. This avoids having to re-submit skills for certification to simply update custom slot values. 
 
