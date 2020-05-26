@@ -1,7 +1,7 @@
 {
     "interactionModel": {
         "languageModel": {
-            "invocationName": "coffee words",
+            "invocationName": "template eighteen",
             "intents": [
                 {
                     "name": "AMAZON.CancelIntent",
